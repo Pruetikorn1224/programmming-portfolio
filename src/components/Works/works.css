@@ -1,0 +1,133 @@
+#works {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.workTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: rgb(252, 176, 64);
+}
+
+.workBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.workItem {
+    background: rgb(50, 50, 50);
+    height: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    min-width: 5rem;
+}
+
+.leftHand {
+    transform: translateX(-10%);
+    opacity: 0%;
+    Transition: all ease-in 1s;
+}
+
+.rightHand {
+    text-align: right;
+    flex-direction: row-reverse;
+    transform: translateX(10%);
+    opacity: 0%;
+    Transition: all ease-in 1s;
+}
+
+.workImg {
+    object-fit: cover;
+    height: 100%;
+    width: 20rem;
+    border-radius: 0.5rem;
+}
+
+.workLogo {
+    display: none;
+}
+
+.workDesc {
+    margin: 2rem 1.5rem;
+}
+
+.workDesc>h2 {
+    padding-bottom: 0.5rem;
+}
+
+.workDesc>h4 {
+    padding-bottom: 0.4rem;
+}
+
+.workDesc>h2>span {
+    color: rgb(255, 206, 50);
+}
+
+.fade-in {
+    transform: translateX(0);
+    opacity: 100%;
+}
+
+@media screen and (max-width: 840px) {
+
+    .workBars {
+        flex-direction: row;
+    }
+
+    .workItem {
+        text-align: center;
+        flex-direction: row;
+        margin: 0.25rem;
+        flex: 1;
+    }
+
+    .workImg {
+        display: none;
+    }
+
+    .workLogo {
+        display: block;
+        object-fit: cover;
+        margin: 1rem auto 0;
+        width: 3rem;
+        height: 3rem;
+        border-radius: 0.5rem;
+    }
+
+    .rightHand, .leftHand {
+        text-align: center;
+        flex-direction: row;
+    }
+
+    .educationDesc {
+        margin: 1rem 0.25rem;
+    }
+
+    .workDesc>h2 {
+        display: none;
+    }
+
+    .workDesc>h4 {
+        font-size: 3vw;
+    }
+
+    .workDesc>p {
+        font-size: 2.5vw;
+        color: rgb(255, 206, 50);
+    }
+}

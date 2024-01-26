@@ -1,0 +1,138 @@
+#education {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 80rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.educationLine {
+    background: rgb(210, 211, 213);
+    width: 90vw;
+    height: 1px;
+}
+
+.educationTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+    color: rgb(252, 176, 64);
+}
+
+.educationBars {
+    margin: 1.5rem;
+    width: 100vw;
+    max-width: 80%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.educationItem {
+    background: rgb(50, 50, 50);
+    height: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    min-width: 5rem;
+}
+
+.leftBlock {
+    transform: translateX(-10%);
+    opacity: 0%;
+    Transition: all ease-in 1s;
+}
+
+.rightBlock {
+    text-align: right;
+    flex-direction: row-reverse;
+    transform: translateX(10%);
+    opacity: 0%;
+    Transition: all ease-in 1s;
+}
+
+.educationImg {
+    object-fit: cover;
+    height: 100%;
+    width: 20rem;
+    border-radius: 0.5rem;
+}
+
+.educationLogo {
+    display: none;
+}
+
+.educationDesc {
+    margin: 2rem 1.5rem;
+}
+
+.educationDesc>h2 {
+    padding-bottom: 0.5rem;
+}
+
+.educationDesc>h4 {
+    padding-bottom: 0.4rem;
+}
+
+.educationDesc>h2>span {
+    color: rgb(255, 206, 50);
+}
+
+.fade-in {
+    transform: translateX(0);
+    opacity: 100%;
+}
+
+@media screen and (max-width: 840px) {
+
+    .educationBars {
+        flex-direction: row;
+    }
+
+    .educationItem {
+        text-align: center;
+        flex-direction: column;
+        margin: 0.25rem;
+        flex: 1;
+    }
+
+    .educationImg {
+        display: none;
+    }
+
+    .educationLogo {
+        display: block;
+        object-fit: cover;
+        margin: 1rem auto 0;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .rightBlock, .leftBlock {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .educationDesc {
+        margin: 0.5rem 0.25rem;
+    }
+
+    .educationDesc>h2 {
+        display: none;
+    }
+
+    .educationDesc>h4 {
+        font-size: 2vw;
+    }
+
+    .educationDesc>p {
+        font-size: 2vw;
+        color: rgb(255, 206, 50);
+    }
+}

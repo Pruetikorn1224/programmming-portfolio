@@ -1,0 +1,92 @@
+{
+    "description": "I am interested in developing virtual world's environment and story. I am confident in time management and enthusiasm to achieve my dream. I am excited to create the entertainment to share to the others with my skills.",
+    "projects": [
+        {
+            "id": 1,
+            "name": "3D Face Recognition",
+            "image": "/face_recognition.png",
+            "link": "https://www.youtube.com/watch?v=R2DSdgRHJR8"
+        },
+        {
+            "id": 2,
+            "name": "Automatic Cashier with Object Detection",
+            "image": "/automatic_cashier.jpg",
+            "link": "https://drive.google.com/file/d/1m8yoHlEwHwO8JXqMBn-01JKNILCMq6oK/view?usp=sharing"
+        },
+        {
+            "id": 3,
+            "name": "Line Follower Car with Wireless Connection",
+            "image": "/line_follower.jpg",
+            "link": "https://www.linkedin.com/posts/ch-pruetikorn_project-activity-7019221156725411840-fYtP?utm_source=share&utm_medium=member_desktop"
+        }
+    ],
+    
+    "games": [
+        {
+            "id": 1,
+            "name": "Endless Runner Game: City Run",
+            "image": "/endless_runner.png",
+            "link": "https://play.unity.com/mg/other/city-run-v2"
+        },
+        {
+            "id": 2,
+            "name": "Exercise Game with Pose Estimation (Unity)",
+            "image": "/pose_estimation_game_unity.png",
+            "link": "https://github.com/Pruetikorn1224/exercise_game_pose_estimation"
+        },
+        {
+            "id": 3,
+            "name": "Exercise Game with Pose Estimation (Python)",
+            "image": "/pose_estimation_game_python.png",
+            "link": "https://github.com/Pruetikorn1224/python-game-with-pose-estimation"
+        }
+    ],
+
+    "environments": [
+        {
+            "id": 1,
+            "name": "AR Economy Presentation",
+            "image": "/ar_economy.png",
+            "link": "https://drive.google.com/drive/folders/1kRkvsEQ1O3OI2lPIagGR8GDyEY5okxEA?usp=sharing"
+        },
+        {
+            "id": 2,
+            "name": "Hololive Virtual Museum",
+            "image": "/hololive_museum.png",
+            "link": "https://www.youtube.com/watch?v=6RZ9H4zcHLc"
+        }
+    ],
+
+    "skills": [
+        {
+            "title": "Programming",
+            "desc": "Ambition to work with programming language to create high-end software",
+            "main_img": "cpu.png",
+            "img": ["python.png", "javascript.png", "cplus.png"]
+        },
+        {
+            "title": "AI Development",
+            "desc": "Fundamental skills of Machine Learning and Deep Learning, mainly focus on visual areas",
+            "main_img": "computervision.png",
+            "img": ["tensorflow.png", "pytorch.png", "matlab.png"]
+        },
+        {
+            "title": "Computer Graphics",
+            "desc": "Developing for animation and simulation for entertainment industry",
+            "main_img": "graphics.png",
+            "img": ["blender.png"]
+        },
+        {
+            "title": "Game Development",
+            "desc": "Highly passionate about game design, programming, and Artificial Intelligence",
+            "main_img": "video-games.png",
+            "img": ["unity.png"]
+        },
+        {
+            "title": "Virtual Environment",
+            "desc": "Engaging in development of virtual reality, augmented reality and mixed reality",
+            "main_img": "vr.png",
+            "img": ["unity.png"]
+        }
+    ]
+}
